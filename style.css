@@ -1,0 +1,150 @@
+*{
+    /*border: 1px solid red;*/
+    font-family:Roboto-black;
+    src: url(fonts/Roboto-Black.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 160px;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin-left: 5%;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.background{
+    z-index: -1;
+    width: 100%;
+    position: flex;
+    margin-top: -100px;
+}
+
+.showfeats{
+    z-index: 1;
+    position: absolute;
+    top: -200px;
+    left: 600px;
+    height: 19em;
+    justify-content: center;
+    align-items: center;
+    color: White;
+    display: flex;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px rgb(0, 0, 0),
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+}
+
+.theater-schedule{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    Color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding-bottom: 20px;
+    padding-left: 450px;
+}
+
+h3{
+    border-style: groove;
+    background-color: lightgrey;
+    padding-left:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: orange;
+}
+
+td{
+    padding: 10px;
+    border-bottom-style: solid;
+    border-color: lightgrey
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map{
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg{
+    width: 250px;
+}
+
+.info-container{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    row-gap: 160px;
+}
+
+.info-title{
+    
+}
